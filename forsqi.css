@@ -294,7 +294,7 @@ iframe{
     display: flex;
     /* justify-content: center; */
     gap: 30px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
 }
 
 .neat{
@@ -405,7 +405,7 @@ iframe{
     display: flex;
     align-items: center;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 
@@ -467,6 +467,10 @@ iframe{
     
    }
 
+   .vass{
+    display: flex;
+    align-items: center;
+   }
 
 }
 @media screen and (max-width:768px) {
@@ -507,10 +511,6 @@ iframe{
         align-items: center;
     }
 
-    .note{
-        /* margin-top: 30px; */
-    }
-
     .engineering{
         width: 330px;
     }
@@ -545,6 +545,24 @@ iframe{
         align-items: center;
         margin-left: 0px;
     }
+
+    .vass{
+        margin-top: 80px;
+        height: 140vh;
+    }
+
+    .forth{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .study{
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 @media screen and (max-width:425px) {
@@ -656,7 +674,8 @@ iframe{
 
 @media screen and (max-width:375px){
     iframe{
-        width: 375px;
+        width: 340px;
+        padding: 10px;
     }
 
     .accordion{
@@ -686,7 +705,7 @@ iframe{
     }
 
     iframe{
-        width: 320px;
+        width: 280px;
     }
 
     .forth{
@@ -722,6 +741,33 @@ iframe{
         flex-direction: column;
         align-items: center;
         margin-left: 0px;
+    }
+
+    .vass{
+        height: 50px;
+    }
+
+    .fix{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .coursepix{
+        width: 270px;
+    }
+
+    .section1{
+        margin-top: 45px;
+    }
+
+    .copyright{
+        padding-top: 8px;
+    }
+
+    .engineering, .design, .analysis, .literacy{
+        padding: 30px;
     }
 
 }
